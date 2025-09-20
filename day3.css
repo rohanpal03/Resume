@@ -1,0 +1,27 @@
+
+  .resume {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  
+  .bio, .skills {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border: 2px solid gray;
+  }
+  
+  
+
+
+  @media (max-width: 600px) {
+    .resume {
+      flex-direction: column;
+     } 
+  }
+  
